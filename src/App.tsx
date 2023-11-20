@@ -6,10 +6,13 @@ function App() {
 
   return (
     <>
-      <h1>Hi there!</h1>
-      <div>
-        
-      </div>
+      <header>
+        <hr />
+        <h1>About Me</h1>
+      </header>
+      <main>
+        <h1>Hi there!</h1>
+      </main>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}

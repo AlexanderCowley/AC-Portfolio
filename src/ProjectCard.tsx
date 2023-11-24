@@ -1,8 +1,18 @@
-import './App.tsx'
+import './ProjectCard.css';
 
-export default function Project()
+type ProjectProps = 
+{
+    projectName:string
+}
+
+function ProjectCard({projectName}:ProjectProps)
 {
     return(
-        <h1>Project Here</h1>
+        <div className="bg">
+            <h3>{projectName}</h3>
+            <p>There once was a project that...</p>
+        </div>
     );
 }
+
+export default ProjectCard;

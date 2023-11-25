@@ -13,9 +13,18 @@ function App() {
       </header>
       <main>
         <h1>Hi there!</h1>
-        <ProjectCard projectName='Glube'/>
-        <ProjectCard projectName='Blobe'/>
-        <ProjectCard projectName='Snoob'/>
+        <ul className='horizontal'>
+          <li>
+              <ProjectCard projectName='Glube'/>
+          </li>
+          <li>
+              <ProjectCard projectName='Blobe'/>
+          </li>
+          <li>
+              <ProjectCard projectName='Snoob'/>
+          </li>
+        </ul>
+        
       </main>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>

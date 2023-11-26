@@ -51,6 +51,12 @@ h1 {
   line-height: 1.1;
 }
 
+p
+{
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
 hr
 {
   margin-top: 10px;

@@ -5,10 +5,25 @@
   text-align: center;
 }
 
+footer
+{
+  position: fixed;
+  height: 5%;
+  bottom: 0;
+  width: 100vw;
+  background-color: hsl(237, 47%, 71%);
+}
+
+ul
+{
+  padding-inline-start: 0;
+}
+
 .horizontal
 {
   list-style-type: none;
 }
+
 
 li
 {

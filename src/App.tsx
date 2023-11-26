@@ -1,10 +1,7 @@
-import { useState } from 'react'
 import './App.css'
 import ProjectCard from './ProjectCard'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <header>
@@ -18,19 +15,18 @@ function App() {
               <ProjectCard projectName='Glube'/>
           </li>
           <li>
-              <ProjectCard projectName='Blobe'/>
+              <ProjectCard projectName='SSEN'/>
           </li>
           <li>
-              <ProjectCard projectName='Snoob'/>
+              <ProjectCard projectName='Something'/>
           </li>
         </ul>
-        
       </main>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+      <footer>
+      <div style={{textAlign: 'left'}}>
+          <p>&copy;AC</p>
       </div>
+      </footer>
     </>
   )
 }

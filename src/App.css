@@ -2,7 +2,7 @@
   /*Limits the size of div outside of body*/
   /*max-width: 1280px;
   max-height: 720px;*/
-  
+
   /*margin: auto;
   padding: 2rem;*/
   text-align: center;
@@ -15,7 +15,6 @@ nav
 
 footer
 {
-  position: fixed;
   height: 5%;
   bottom: 0;
   width: 100vw;

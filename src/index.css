@@ -81,18 +81,17 @@ hr
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
+  padding: 0.6em 2.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
-  transition: border-color 0.25s;
+  border-style: none;
 }
 button:hover {
-  border-color: #646cff;
+  background-color: #1a1a1a;
+  color: whitesmoke;
 }
 button:focus,
 button:focus-visible {
@@ -108,6 +107,6 @@ button:focus-visible {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: hsl(19, 44%, 43%);
   }
 }

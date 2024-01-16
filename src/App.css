@@ -13,6 +13,11 @@ nav
   background-color: hsl(19, 44%, 43%);
 }
 
+nav ul
+{
+  padding: 1.5% 0%;
+}
+
 footer
 {
   height: 5%;

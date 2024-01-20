@@ -18,6 +18,11 @@ nav ul
   text-align: left;
 }
 
+article ul li
+{
+  padding-right: 2%;
+}
+
 footer
 {
   height: 5%;
